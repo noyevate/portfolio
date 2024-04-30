@@ -1,0 +1,132 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Use Google Font Roboto */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #1a1a1a; /* Set neon color background */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff; /* Set container background color to white for better readability */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #000; /* Change text color to dark */
+    padding: 20px 0;
+    text-align: center; /* Center align header content */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000; /* Change link color to dark */
+    text-decoration: none;
+}
+
+/* Profile picture styles */
+.profile-picture {
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    border-radius: 50%; /* Make the image circular */
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff; /* Add a border around the image */
+}
+
+/* Section styles */
+section {
+    padding: 30px 0; /* Reduced padding between sections */
+    text-align: center; /* Center align section content */
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Project styles */
+.project {
+    text-align: justify; /* Justify project description */
+    margin-bottom: 40px; /* Add spacing between projects */
+}
+
+.project-links a {
+    margin-right: 20px; /* Add spacing between project links */
+}
+
+/* Contact icons styles */
+.contact-icons {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center align contact icons */
+}
+
+.contact-icons li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.contact-icons li a {
+    color: #333; /* Adjust icon color */
+    font-size: 24px;
+}
+
+/* Load Google Font Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 20px 0; /* Reduce padding for smaller screens */
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    .profile-picture img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contact-icons li {
+        margin-right: 10px; /* Adjust margin for smaller screens */
+    }
+}
